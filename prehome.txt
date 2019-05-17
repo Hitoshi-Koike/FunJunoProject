@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="description" content="JUNO Watch Project" />
+<meta name="keywords" content="Jupiter, JUNO, 木星, ジュピター, ジュノー, 探査機, 宇宙" />
+<link rel="stylesheet" href="common.css" type="text/css" />
+<title>JUNO Watch Project</title>
+</head>
+<body>
+<div class="main">
+    <div id="header">
+        <div class="logo"><a href="index.html"><img src="image/logo.png" width="100px" /></a></div>
+        <span class="j-title"><span class="logo-d">J</span>UNO <span class="logo-d">W</span>atch <span class="logo-d">P</span>roject
+        <span class="title-jpn">～ジュノウォッチ・プロジェクト～</span></span>
+        <ul id="dropmenu">
+          <li><a href="index.html"><span onmouseover="this.innerText='ホーム'" onmouseout="this.innerText='HOME'"> HOME</span></a></li>
+          <li><a href="about.html"><span onmouseover="this.innerText='このサイトについて'" onmouseout="this.innerText='ABOUT'"> ABOUT</span></a>
+            <ul>
+              <li><a href="about.html"><span onmouseover="this.innerText='ジュノウォッチ・プロジェクトとは？'" onmouseout="this.innerText='WHATS JUNO WATCH PROJECT?'">WHAT'S JUNO WATCH PROJECT?</span></a></li>
+              <li><a href="member.html"><span onmouseover="this.innerText='メンバー紹介'" onmouseout="this.innerText='MEMBER'">MEMBER</span></a></li>
+              <li><a href="faq.html"><span onmouseover="this.innerText='よくある質問'" onmouseout="this.innerText='FAQ'">FAQ</span></a></li>
+            </ul>
+          </li>
+          <li><a href="jupiter_top.html"><span onmouseover="this.innerText='木星について'" onmouseout="this.innerText='JUPUTER'">JUPITER</span></a>
+            <ul>
+              <li><a href="cloud.html"><span onmouseover="this.innerText='木星の雲'" onmouseout="this.innerText='CLOUD'">CLOUD</span></a></li>
+              <li><a href="interior.html"><span onmouseover="this.innerText='木星の中身'" onmouseout="this.innerText='INTERIOR'">INTERIOR</span></a></li>
+              <li><a href="gravity.html"><span onmouseover="this.innerText='木星の重力'" onmouseout="this.innerText='GRAVITY'">GRAVITY</span></a></li>
+              <li><a href="atmosphere.html"><span onmouseover="this.innerText='木星の大気'" onmouseout="this.innerText='ATMOSPHERE'">ATMOSPHERE</span></a></li>
+              <li><a href="moon.html"><span onmouseover="this.innerText='木星の月'" onmouseout="this.innerText='MOON'">MOON</span></a></li>
+              <li><a href="aurora.html"><span onmouseover="this.innerText='オーロラ'" onmouseout="this.innerText='AURORA'">AURORA</span></a></li>
+              </ul>
+          </li>
+          <li><a href="juno_top.html"><span onmouseover="this.innerText='ジュノーとは？'" onmouseout="this.innerText='JUNO'">JUNO</span></a>
+            <ul>
+              <li><a href="jade.html"><span onmouseover="this.innerText='ジェイド ジェダイ'" onmouseout="this.innerText='JADE JEDI'">JADE JEDI</span></a></li>
+              <li><a href="uvs.html"><span onmouseover="this.innerText='ユーブイエス'" onmouseout="this.innerText='UVS'">UVS</span></a></li>
+              <li><a href="jiram.html"><span onmouseover="this.innerText='ジラム'" onmouseout="this.innerText='JIRAM'">JIRAM</span></a></li>
+              <li><a href="junocam.html"><span onmouseover="this.innerText='ジュノーカム'" onmouseout="this.innerText='JUNOCAM'">JUNOCAM</span></a></li>
+              <li><a href="science.html"><span onmouseover="this.innerText='グラビティーサイエンス'" onmouseout="this.innerText='GRAVITY SCIENCE'">GRAVITY SCIENCE</span></a></li>
+              <li><a href="magnetometer.html"><span onmouseover="this.innerText='マグネットメーター'" onmouseout="this.innerText='MAGNETOMETER'">MAGNETOMETER</span></a></li>
+            </ul>
+          </li>
+          <li><a href="link.html"><span onmouseover="this.innerText='おすすめサイト'" onmouseout="this.innerText='LINKS'">LINKS</span></a></li>
+        </ul>
+
+        <!-- /#menu -->
+    </div><!-- /#header -->
+    <a href="about.html">
+<img src="image/welcome.jpg" width="940" height="300" /></a>
+  <div class="jupiter-pic">
+    <a href="jupiter_top.html">
+<img src="image/jupiter-top2.jpg" ></a>
+</div>
+  <div class="juno-pic">
+        <a href="juno_top.html">
+<img src="image/juno-top2.jpg" ></a></div>
+<div class="foot">
+
+        <div class="footer"><a href="http://www.fun.ac.jp/">
+            <img src="image/future-logo2.jpg"></a><br>
+          Copyright &copy; 2016 JUNO Watch Project All Rights Reserved.
+        </div>
+</div>
+    </div><!-- /#slide -->
+
+<!-- /#pageTop -->
+</body>
+</html>
