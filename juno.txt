@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="description" content="木星探査機「ジュノー」とは？" />
+<meta name="keywords" content="JUNO, ジュノー, 木星, ジュピター" />
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<link rel="stylesheet" href="jupiter_top.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                auto: true,
+            });
+      });
+</script>
+
+<script type="text/javascript">
+$(function(){
+        $('.sub_menu').hide();
+        $('.main_menu').click(function(){
+                $('ul.sub_menu').slideUp();
+                if($('+ul.sub_menu',this).css('display') == 'none'){
+                        $('+ul.sub_menu',this).slideDown();
+                }
+        });
+});
+</script>
+
+<title>JUNOとは？ - JUNO Watch Project</title>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div class="logo"><a href="index.html"><img src="image/logo.png" width="100px" /></a></div>
+        <span class="j-title"><span class="logo-d">J</span>UNO <span class="logo-d">W</span>atch <span class="logo-d">P</span>roject
+        <span class="title-jpn">～ジュノウォッチ・プロジェクト～</span></span>
+        <ul id="dropmenu">
+          <li><a href="index.html"><span onmouseover="this.innerText='ホーム'" onmouseout="this.innerText='HOME'"> HOME</span></a></li>
+          <li><a href="about.html"><span onmouseover="this.innerText='このサイトについて'" onmouseout="this.innerText='ABOUT'"> ABOUT</span></a>
+            <ul>
+              <li><a href="about.html"><span onmouseover="this.innerText='ジュノウォッチ・プロジェクトとは？'" onmouseout="this.innerText='WHATS JUNO WATCH PROJECT?'">WHAT'S JUNO WATCH PROJECT?</span></a></li>
+              <li><a href="member.html"><span onmouseover="this.innerText='メンバー紹介'" onmouseout="this.innerText='MEMBER'">MEMBER</span></a></li>
+              <li><a href="faq.html"><span onmouseover="this.innerText='よくある質問'" onmouseout="this.innerText='FAQ'">FAQ</span></a></li>
+            </ul>
+          </li>
+          <li><a href="jupiter_top.html"><span onmouseover="this.innerText='木星について'" onmouseout="this.innerText='JUPUTER'">JUPITER</span></a>
+            <ul>
+              <li><a href="cloud.html"><span onmouseover="this.innerText='木星の雲'" onmouseout="this.innerText='CLOUD'">CLOUD</span></a></li>
+              <li><a href="interior.html"><span onmouseover="this.innerText='木星の中身'" onmouseout="this.innerText='INTERIOR'">INTERIOR</span></a></li>
+              <li><a href="gravity.html"><span onmouseover="this.innerText='木星の重力'" onmouseout="this.innerText='GRAVITY'">GRAVITY</span></a></li>
+              <li><a href="atmosphere.html"><span onmouseover="this.innerText='木星の大気'" onmouseout="this.innerText='ATMOSPHERE'">ATMOSPHERE</span></a></li>
+              <li><a href="moon.html"><span onmouseover="this.innerText='木星の月'" onmouseout="this.innerText='MOON'">MOON</span></a></li>
+              <li><a href="aurora.html"><span onmouseover="this.innerText='オーロラ'" onmouseout="this.innerText='AURORA'">AURORA</span></a></li>
+              </ul>
+          </li>
+          <li><a href="juno_top.html"><span onmouseover="this.innerText='ジュノーとは？'" onmouseout="this.innerText='JUNO'">JUNO</span></a>
+            <ul>
+              <li><a href="jade.html"><span onmouseover="this.innerText='ジェイド ジェダイ'" onmouseout="this.innerText='JADE JEDI'">JADE JEDI</span></a></li>
+              <li><a href="uvs.html"><span onmouseover="this.innerText='ユーブイエス'" onmouseout="this.innerText='UVS'">UVS</span></a></li>
+              <li><a href="jiram.html"><span onmouseover="this.innerText='ジラム'" onmouseout="this.innerText='JIRAM'">JIRAM</span></a></li>
+              <li><a href="junocam.html"><span onmouseover="this.innerText='ジュノーカム'" onmouseout="this.innerText='JUNOCAM'">JUNOCAM</span></a></li>
+              <li><a href="science.html"><span onmouseover="this.innerText='グラビティーサイエンス'" onmouseout="this.innerText='GRAVITY SCIENCE'">GRAVITY SCIENCE</span></a></li>
+              <li><a href="magnetometer.html"><span onmouseover="this.innerText='マグネットメーター'" onmouseout="this.innerText='MAGNETOMETER'">MAGNETOMETER</span></a></li>
+            </ul>
+          </li>
+          <li><a href="link.html"><span onmouseover="this.innerText='おすすめサイト'" onmouseout="this.innerText='LINKS'">LINKS</span></a></li>
+        </ul>        <!-- /#menu -->
+    </div><!-- /#header -->
+
+    <ul id="menu">
+
+    <li><div class="main_menu">HOME</div>
+      <ul class="sub_menu">
+        <li><a href="index.html">HOME</a></li>
+      </ul></li>
+
+    <li><div class="main_menu">ABOUT</div>
+      <ul class="sub_menu">
+        <li><a href="about.html">WHAT'S JUNO?</a></li>
+        <li><a href="member.html">MEMBER</a></li>
+        <li><a href="history.html">HISTORY</a></li>
+    </ul></li>
+
+    <li><div class="main_menu">JUPITER</div>
+      <ul class="sub_menu">
+        <li><a href="jupiter_top.html">TOP</a></li>
+        <li><a href="cloud.html">CLOUD</a></li>
+        <li><a href="atmosphere.html">ATMOSPHERE</a></li>
+        <li><a href="gravity.html">GRAVITY</a></li>
+        <li><a href="moon.html">MOON</a></li>
+        <li><a href="interior.html">INTERIOR</a></li>
+        <li><a href="aurora.html">AURORA</a></li>
+          </ul></li>
+
+    <li><div class="main_menu">JUNO</div>
+      <ul class="sub_menu">
+        <li><a href="juno_top.html">TOP</a></li>
+        <li><a href="jade.html">JADE JEDI</a></li>
+        <li><a href="uvs.html">UVS</a></li>
+        <li><a href="jiram.html">JIRAM</a></li>
+        <li><a href="junocam.html">JUNOCAM</a></li>
+        <li><a href="science.html">GRAVITY SCIENCE</a></li>
+        <li><a href="magnetometer.html">MAGNETOMETER</a></li>
+          </ul></li>
+
+    <li><div class="main_menu">LINKS</div>
+      <ul class="sub_menu">
+        <li><a href="link.html">LINKS</a></li>
+      </ul></li>
+    </ul>
+
+<div class="main">
+  <img src="image/juno-head.jpg">
+  <div class="slide">
+  <img src="image/juno-top.jpg" width="45%">
+<img src="image/lego.jpg" width="50%"></div>
+
+  <div class="txt">
+    <div class="txt-in">
+<p>
+  <div class="txt-tit">ジュノーとは？</div>
+  ジュノーとは2011年に打ち上げられてから5年かけて2016年に木星に到達した探査機です。<br>
+  名前はローマ神話の最高神ユーピテル(Jupiter)の妻ユーノー(JUNO)からとってジュノーと呼ばれています。木星がかなり遠いので、ジュノーの出せる最高速度は北海道から沖縄まで30秒で行けるほど速いです。<br>
+  また無人探査機でなので人が乗ってない代わりに、ユーピテルとユーノー、科学者のガリレオガリレイをモチーフにした3体のレゴが乗っています。<br>
+  今この瞬間もジュノーと3体のレゴは頑張って木星の周りを飛んでいます。
+</p>
+</div>
+  </div>
+  <div class="title">～ジュノーに搭載されている機能たち～</div>
+  <div class="cloud"><a href="jade.html">
+<img src="image/JEDI-icon.jpg" width="210px">
+<div class="c-txt">
+<div class="c-tit">
+  JADE JEDI
+</div>
+ジェイド、ジェダイと呼ばれる木星の磁気圏とオーロラを調べる装置です。どこかの戦士ではありませんよ。心なしか四足歩行の動物に見えてかわいいですね。
+</div></a>
+  </div>
+  <div class="atmosphere"><a href="uvs.html">
+    <img src="image/uvs2.jpg" width="210px">
+      <div class="c-txt"><div class="c-tit">UVS</div>
+      紫外線を計測したり、オーロラを撮影する装置です。木星には、人の目に見えない紫外線のオーロラが発生しているんだとか。
+    </div></a>
+</div>
+  <div class="gravity"><a href="jiram.html">
+    <img src="image/jiram2.jpg" width="210px">
+  <div class="c-txt"><div class="c-tit">JIRAM</div>
+ジラムは大気の成分や光を観測する装置です。赤外線を用いて熱を感知し水を観測することができます。
+</div></a>
+</div>
+  <div class="moon"><a href="junocam.html">
+  <img src="image/junocam2.jpg" width="210px">
+  <div class="c-txt"><div class="c-tit">JUNOCAM</div>
+ジュノーカムはその名の通り写真を撮影できるカメラです。アマチュア天文家たちが撮ってほしい木星の場所を応募して、どこをとるか決めるちょっとしたイベントもありました。
+  </div></a>
+</div>
+  <div class="interior"><a href="science.html">
+    <img src="image/gravityscience2.jpg" width="210px">
+      <div class="c-txt"><div class="c-tit">GRAVITY SCIENCE</div>
+グラビティーサイエンスは 木星の重力が及ぶ空間(重力場)を測定する装置です。重力場を知ることで木星の中の形が分かります。
+</div></a>
+</div>
+  <div class="aurora"><a href="magnetometer.html">
+    <img src="image/magnetometer2.jpg" width="210px">
+      <div class="c-txt"><div class="c-tit">MAGNETOMETER</div>
+マグネットメーターはジュノーの先端についてる木星の磁場の強さを測定する装置です。木星の磁力には機械を破壊するほどの強さがあります。
+    </div></a>
+  </div>
+
+  <div class="foot">
+    <div class="up"><a href=#>―このページの上部に戻る―</a></div>
+
+  </div>
+
+
+</div>
+
+<div class="copyright-f">
+  <div class="footer">
+    <a href="http://www.fun.ac.jp/">
+        <img src="image/future-logo2.jpg"></a><br>
+    Copyright &copy; 2016 JUNO Watch Project All Rights Reserved.</div>
+</div>
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>
